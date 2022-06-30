@@ -1,3 +1,4 @@
-<h2>Product count: <%= @products_count %></h2>
-<h2>Category count: <%= @categories_count %></h2>
+<p>
+<div class="alert alert-info"><%= link_to  'Product count:', [:admin, :products] %> <%= @products_count %> </div>
+<div class="alert alert-info"><%= link_to 'Category count:', [:admin, :categories] %> <%= @categories_count %></div>
 
