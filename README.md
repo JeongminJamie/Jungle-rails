@@ -33,5 +33,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Screenshots
 
 !["prouducts"](./docs/products.png)
-!["plant category"](./docs/plants-category.png)
 !["Canceling an appointment"](./docs/mycart.png)
