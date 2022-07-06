@@ -4,7 +4,7 @@ describe("Jungle test", () => {
   });
 
   it("when clicking .products article, redirect to the proudct page", () => {
-    cy.get("article:nth-child(1) a").click();
+    cy.get(".products article").first().click();
     cy.url().should("include", "products/");
   });
 });
